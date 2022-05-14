@@ -1,0 +1,130 @@
+==> Random seed: 7727
+==> Using accelerator: cuda:0
+==> Preparing dataset ...
+==> Initialize model ...
+==> Start training ...
+Epoch (1/200):
+Train loss: 2.275253, train acc: 0.613415
+Val loss: 1.928866, Val acc: 0.744733
+==> Save checkpoint ...
+best: 0.745
+Epoch (2/200):
+Train loss: 1.900945, train acc: 0.755589
+Val loss: 1.743794, Val acc: 0.805105
+==> Save checkpoint ...
+best: 0.805
+Epoch (3/200):
+Train loss: 1.797060, train acc: 0.799289
+Val loss: 1.707561, Val acc: 0.819692
+==> Save checkpoint ...
+best: 0.820
+Epoch (4/200):
+Train loss: 1.736278, train acc: 0.829268
+Val loss: 1.653255, Val acc: 0.829822
+==> Save checkpoint ...
+best: 0.830
+Epoch (5/200):
+Train loss: 1.700705, train acc: 0.838415
+Val loss: 1.671970, Val acc: 0.835089
+==> Save checkpoint ...
+best: 0.835
+Epoch (6/200):
+Train loss: 1.664466, train acc: 0.851016
+Val loss: 1.614708, Val acc: 0.849271
+==> Save checkpoint ...
+best: 0.849
+Epoch (7/200):
+Train loss: 1.642155, train acc: 0.860976
+Val loss: 1.548830, Val acc: 0.890194
+==> Save checkpoint ...
+best: 0.890
+Epoch (8/200):
+Train loss: 1.615741, train acc: 0.871240
+Val loss: 1.537122, Val acc: 0.884117
+best: 0.890
+Epoch (9/200):
+Train loss: 1.601723, train acc: 0.879472
+Val loss: 1.531912, Val acc: 0.878039
+best: 0.890
+Epoch (10/200):
+Train loss: 1.591861, train acc: 0.883333
+Val loss: 1.528184, Val acc: 0.881686
+best: 0.890
+Epoch (11/200):
+Train loss: 1.572661, train acc: 0.891667
+Val loss: 1.513581, Val acc: 0.895057
+==> Save checkpoint ...
+best: 0.895
+Epoch (12/200):
+Train loss: 1.569601, train acc: 0.893191
+Val loss: 1.520647, Val acc: 0.892626
+best: 0.895
+Epoch (13/200):
+Train loss: 1.549404, train acc: 0.898984
+Val loss: 1.497141, Val acc: 0.897488
+==> Save checkpoint ...
+best: 0.897
+Epoch (14/200):
+Train loss: 1.535554, train acc: 0.906911
+Val loss: 1.518795, Val acc: 0.891410
+best: 0.897
+Epoch (15/200):
+Train loss: 1.528683, train acc: 0.907317
+Val loss: 1.492566, Val acc: 0.895867
+best: 0.897
+Epoch (16/200):
+Train loss: 1.520674, train acc: 0.910061
+Val loss: 1.482762, Val acc: 0.908023
+==> Save checkpoint ...
+best: 0.908
+Epoch (17/200):
+Train loss: 1.514221, train acc: 0.915854
+Val loss: 1.493668, Val acc: 0.888169
+best: 0.908
+Epoch (18/200):
+Train loss: 1.504990, train acc: 0.917480
+Val loss: 1.468442, Val acc: 0.915316
+==> Save checkpoint ...
+best: 0.915
+Epoch (19/200):
+Train loss: 1.498922, train acc: 0.921443
+Val loss: 1.463887, Val acc: 0.911264
+best: 0.915
+Epoch (20/200):
+Train loss: 1.494631, train acc: 0.919614
+Val loss: 1.476680, Val acc: 0.902755
+best: 0.915
+Epoch (21/200):
+Train loss: 1.494564, train acc: 0.919207
+Val loss: 1.473290, Val acc: 0.914911
+best: 0.915
+Epoch (22/200):
+Train loss: 1.488063, train acc: 0.925000
+Val loss: 1.474691, Val acc: 0.897893
+best: 0.915
+Epoch (23/200):
+Train loss: 1.476526, train acc: 0.927236
+Val loss: 1.464549, Val acc: 0.907212
+best: 0.915
+Epoch (24/200):
+Train loss: 1.474090, train acc: 0.930183
+Val loss: 1.465670, Val acc: 0.907212
+best: 0.915
+Epoch (25/200):
+Train loss: 1.465919, train acc: 0.932825
+Val loss: 1.469103, Val acc: 0.904376
+best: 0.915
+Epoch (26/200):
+Train loss: 1.462127, train acc: 0.935061
+Val loss: 1.468821, Val acc: 0.903566
+best: 0.915
+Epoch (27/200):
+Train loss: 1.453540, train acc: 0.938211
+Val loss: 1.489060, Val acc: 0.895867
+best: 0.915
+Epoch (28/200):
+Train loss: 1.452629, train acc: 0.938516
+Val loss: 1.455132, Val acc: 0.911669
+best: 0.915
+Epoch (29/200):
+Train loss: 1.444785, train acc: 0.938720

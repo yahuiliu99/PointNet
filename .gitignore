@@ -5,3 +5,5 @@
 /ShapeNetPart
 /get_start.ipynb
 /.vscode
+/data
+/__pycache__

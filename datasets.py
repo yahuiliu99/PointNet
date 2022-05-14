@@ -1,44 +1,57 @@
+'''
+Date: 2022-05-14 08:07:32
+Author: Liu Yahui
+LastEditors: Liu Yahui
+LastEditTime: 2022-05-14 08:34:02
+'''
 import os
-import torch
+import glob
+import h5py
 import numpy as np
 
 from torch.utils.data import Dataset
 
-from path import Path
 
-from data_proc import read_off
-from transforms import default_transforms
+def load_modelnet40(data_dir, partition):
+    # download_modelnet40()
+    all_data = []
+    all_label = []
+    for h5_name in glob.glob(os.path.join(data_dir, 'modelnet40*hdf5_2048', '*%s*.h5'%partition)):
+        f = h5py.File(h5_name, 'r+')
+        data = f['data'][:].astype('float32')
+        label = f['label'][:].astype('int64')
+        f.close()
+        all_data.append(data)
+        all_label.append(label)
+    all_data = np.concatenate(all_data, axis=0)
+    all_label = np.concatenate(all_label, axis=0)
+    return all_data, all_label
 
-class PointCloudData(Dataset):
-    def __init__(self, root_dir, valid=False, folder="train", transform=default_transforms()):
-        folders = [dir for dir in sorted(os.listdir(root_dir)) if os.path.isdir(root_dir/dir)]
-        self.classes = {folder: i for i, folder in enumerate(folders)}
-        self.transforms = transform if not valid else default_transforms()
-        self.valid = valid
-        self.files = []
-        for category in self.classes.keys():
-            new_dir  = root_dir/Path(category)/folder
-            for file in os.listdir(new_dir):
-                if file.endswith('.off'):
-                    sample = {}
-                    sample['pcd_path'] = new_dir/file
-                    sample['category'] = category
-                    self.files.append(sample)
+
+def translate_pointcloud(pointcloud):
+    '''
+    Randomly scale and shift point cloud
+    '''
+    xyz1 = np.random.uniform(low=2./3., high=3./2., size=[3])
+    xyz2 = np.random.uniform(low=-0.2, high=0.2, size=[3])
+       
+    translated_pointcloud = np.add(np.multiply(pointcloud, xyz1), xyz2).astype('float32')
+    return translated_pointcloud
+
+
+class ModelNet40(Dataset):
+    def __init__(self, data_dir, num_points, partition='train'):
+        self.data, self.label = load_modelnet40(data_dir, partition)
+        self.num_points = num_points
+        self.partition = partition        
+
+    def __getitem__(self, item):
+        pointcloud = self.data[item][:self.num_points]
+        label = self.label[item]
+        if self.partition == 'train':
+            pointcloud = translate_pointcloud(pointcloud)
+            np.random.shuffle(pointcloud)
+        return pointcloud, label
 
     def __len__(self):
-        return len(self.files)
-
-    def __preproc__(self, file):
-        verts, faces = read_off(file)
-        if self.transforms:
-            pointcloud = self.transforms((verts, faces))
-        return pointcloud
-
-    def __getitem__(self, index):
-        pcd_path = self.files[index]['pcd_path']
-        category = self.files[index]['category']
-        with open(pcd_path, 'r') as f:
-            pointcloud = self.__preproc__(f)
-        return {'pointcloud': pointcloud,
-                'category': self.classes[category]}
-
+        return self.data.shape[0]
