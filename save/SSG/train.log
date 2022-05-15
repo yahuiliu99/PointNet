@@ -128,3 +128,696 @@ Val loss: 1.455132, Val acc: 0.911669
 best: 0.915
 Epoch (29/200):
 Train loss: 1.444785, train acc: 0.938720
+Val loss: 1.451913, Val acc: 0.908428
+best: 0.915
+Epoch (30/200):
+Train loss: 1.444546, train acc: 0.940549
+Val loss: 1.458892, Val acc: 0.904376
+best: 0.915
+Epoch (31/200):
+Train loss: 1.445329, train acc: 0.940752
+Val loss: 1.454503, Val acc: 0.910049
+best: 0.915
+Epoch (32/200):
+Train loss: 1.440791, train acc: 0.940447
+Val loss: 1.452022, Val acc: 0.915316
+==> Save checkpoint ...
+best: 0.915
+Epoch (33/200):
+Train loss: 1.434230, train acc: 0.945935
+Val loss: 1.468043, Val acc: 0.908428
+best: 0.915
+Epoch (34/200):
+Train loss: 1.432856, train acc: 0.949085
+Val loss: 1.456706, Val acc: 0.903971
+best: 0.915
+Epoch (35/200):
+Train loss: 1.426844, train acc: 0.948780
+Val loss: 1.477071, Val acc: 0.895867
+best: 0.915
+Epoch (36/200):
+Train loss: 1.423640, train acc: 0.950102
+Val loss: 1.470613, Val acc: 0.899514
+best: 0.915
+Epoch (37/200):
+Train loss: 1.425986, train acc: 0.951016
+Val loss: 1.440823, Val acc: 0.915316
+==> Save checkpoint ...
+best: 0.915
+Epoch (38/200):
+Train loss: 1.421789, train acc: 0.950000
+Val loss: 1.466879, Val acc: 0.908023
+best: 0.915
+Epoch (39/200):
+Train loss: 1.416900, train acc: 0.951118
+Val loss: 1.440445, Val acc: 0.910454
+best: 0.915
+Epoch (40/200):
+Train loss: 1.414354, train acc: 0.954776
+Val loss: 1.451845, Val acc: 0.906402
+best: 0.915
+Epoch (41/200):
+Train loss: 1.414163, train acc: 0.956402
+Val loss: 1.469880, Val acc: 0.897893
+best: 0.915
+Epoch (42/200):
+Train loss: 1.412109, train acc: 0.954675
+Val loss: 1.435068, Val acc: 0.921394
+==> Save checkpoint ...
+best: 0.921
+Epoch (43/200):
+Train loss: 1.408237, train acc: 0.959858
+Val loss: 1.446690, Val acc: 0.907618
+best: 0.921
+Epoch (44/200):
+Train loss: 1.406678, train acc: 0.958130
+Val loss: 1.448704, Val acc: 0.909238
+best: 0.921
+Epoch (45/200):
+Train loss: 1.404750, train acc: 0.957419
+Val loss: 1.451299, Val acc: 0.909643
+best: 0.921
+Epoch (46/200):
+Train loss: 1.399658, train acc: 0.959858
+Val loss: 1.470285, Val acc: 0.898703
+best: 0.921
+Epoch (47/200):
+Train loss: 1.396297, train acc: 0.961382
+Val loss: 1.446439, Val acc: 0.914100
+best: 0.921
+Epoch (48/200):
+Train loss: 1.399087, train acc: 0.958841
+Val loss: 1.455107, Val acc: 0.907618
+best: 0.921
+Epoch (49/200):
+Train loss: 1.401833, train acc: 0.958028
+Val loss: 1.438103, Val acc: 0.915316
+best: 0.921
+Epoch (50/200):
+Train loss: 1.393133, train acc: 0.962703
+Val loss: 1.461700, Val acc: 0.902350
+best: 0.921
+Epoch (51/200):
+Train loss: 1.390637, train acc: 0.963821
+Val loss: 1.443557, Val acc: 0.912885
+best: 0.921
+Epoch (52/200):
+Train loss: 1.390429, train acc: 0.963720
+Val loss: 1.461793, Val acc: 0.912885
+best: 0.921
+Epoch (53/200):
+Train loss: 1.391623, train acc: 0.964024
+Val loss: 1.468884, Val acc: 0.902350
+best: 0.921
+Epoch (54/200):
+Train loss: 1.385403, train acc: 0.964634
+Val loss: 1.447103, Val acc: 0.920178
+best: 0.921
+Epoch (55/200):
+Train loss: 1.382797, train acc: 0.966362
+Val loss: 1.437229, Val acc: 0.920178
+best: 0.921
+Epoch (56/200):
+Train loss: 1.380023, train acc: 0.967480
+Val loss: 1.425435, Val acc: 0.924230
+==> Save checkpoint ...
+best: 0.924
+Epoch (57/200):
+Train loss: 1.379317, train acc: 0.967480
+Val loss: 1.451484, Val acc: 0.908428
+best: 0.924
+Epoch (58/200):
+Train loss: 1.377704, train acc: 0.969207
+Val loss: 1.440062, Val acc: 0.913290
+best: 0.924
+Epoch (59/200):
+Train loss: 1.377473, train acc: 0.968801
+Val loss: 1.449226, Val acc: 0.911669
+best: 0.924
+Epoch (60/200):
+Train loss: 1.379646, train acc: 0.965549
+Val loss: 1.448032, Val acc: 0.911264
+best: 0.924
+Epoch (61/200):
+Train loss: 1.372030, train acc: 0.970325
+Val loss: 1.445727, Val acc: 0.910049
+best: 0.924
+Epoch (62/200):
+Train loss: 1.376537, train acc: 0.968394
+Val loss: 1.451683, Val acc: 0.912885
+best: 0.924
+Epoch (63/200):
+Train loss: 1.372044, train acc: 0.972053
+Val loss: 1.459969, Val acc: 0.910049
+best: 0.924
+Epoch (64/200):
+Train loss: 1.365181, train acc: 0.972866
+Val loss: 1.462285, Val acc: 0.898703
+best: 0.924
+Epoch (65/200):
+Train loss: 1.367213, train acc: 0.973272
+Val loss: 1.438628, Val acc: 0.920989
+best: 0.924
+Epoch (66/200):
+Train loss: 1.368606, train acc: 0.971545
+Val loss: 1.450852, Val acc: 0.913695
+best: 0.924
+Epoch (67/200):
+Train loss: 1.368941, train acc: 0.972561
+Val loss: 1.445103, Val acc: 0.912885
+best: 0.924
+Epoch (68/200):
+Train loss: 1.365825, train acc: 0.973069
+Val loss: 1.445524, Val acc: 0.916937
+best: 0.924
+Epoch (69/200):
+Train loss: 1.361844, train acc: 0.974797
+Val loss: 1.444060, Val acc: 0.915721
+best: 0.924
+Epoch (70/200):
+Train loss: 1.359319, train acc: 0.975000
+Val loss: 1.439706, Val acc: 0.915316
+best: 0.924
+Epoch (71/200):
+Train loss: 1.362309, train acc: 0.974085
+Val loss: 1.444825, Val acc: 0.913290
+best: 0.924
+Epoch (72/200):
+Train loss: 1.362007, train acc: 0.973780
+Val loss: 1.439247, Val acc: 0.918558
+best: 0.924
+Epoch (73/200):
+Train loss: 1.361974, train acc: 0.974187
+Val loss: 1.435008, Val acc: 0.919773
+best: 0.924
+Epoch (74/200):
+Train loss: 1.360510, train acc: 0.973780
+Val loss: 1.453733, Val acc: 0.908023
+best: 0.924
+Epoch (75/200):
+Train loss: 1.355764, train acc: 0.976524
+Val loss: 1.453364, Val acc: 0.907618
+best: 0.924
+Epoch (76/200):
+Train loss: 1.361117, train acc: 0.976728
+Val loss: 1.451131, Val acc: 0.911669
+best: 0.924
+Epoch (77/200):
+Train loss: 1.353972, train acc: 0.977846
+Val loss: 1.449677, Val acc: 0.908833
+best: 0.924
+Epoch (78/200):
+Train loss: 1.352440, train acc: 0.979167
+Val loss: 1.437395, Val acc: 0.920583
+best: 0.924
+Epoch (79/200):
+Train loss: 1.351913, train acc: 0.978252
+Val loss: 1.443290, Val acc: 0.910859
+best: 0.924
+Epoch (80/200):
+Train loss: 1.353097, train acc: 0.976829
+Val loss: 1.453036, Val acc: 0.910454
+best: 0.924
+Epoch (81/200):
+Train loss: 1.346231, train acc: 0.980894
+Val loss: 1.443327, Val acc: 0.914100
+best: 0.924
+Epoch (82/200):
+Train loss: 1.348344, train acc: 0.981098
+Val loss: 1.450467, Val acc: 0.907618
+best: 0.924
+Epoch (83/200):
+Train loss: 1.351152, train acc: 0.978455
+Val loss: 1.434149, Val acc: 0.914911
+best: 0.924
+Epoch (84/200):
+Train loss: 1.347684, train acc: 0.980996
+Val loss: 1.440819, Val acc: 0.918963
+best: 0.924
+Epoch (85/200):
+Train loss: 1.347752, train acc: 0.978455
+Val loss: 1.458143, Val acc: 0.910454
+best: 0.924
+Epoch (86/200):
+Train loss: 1.347568, train acc: 0.979573
+Val loss: 1.451738, Val acc: 0.915316
+best: 0.924
+Epoch (87/200):
+Train loss: 1.347602, train acc: 0.978049
+Val loss: 1.441772, Val acc: 0.918963
+best: 0.924
+Epoch (88/200):
+Train loss: 1.345555, train acc: 0.980488
+Val loss: 1.439623, Val acc: 0.915316
+best: 0.924
+Epoch (89/200):
+Train loss: 1.342050, train acc: 0.982215
+Val loss: 1.436499, Val acc: 0.917747
+best: 0.924
+Epoch (90/200):
+Train loss: 1.341604, train acc: 0.982622
+Val loss: 1.452312, Val acc: 0.910859
+best: 0.924
+Epoch (91/200):
+Train loss: 1.344594, train acc: 0.981098
+Val loss: 1.448021, Val acc: 0.911264
+best: 0.924
+Epoch (92/200):
+Train loss: 1.342962, train acc: 0.982012
+Val loss: 1.458355, Val acc: 0.908023
+best: 0.924
+Epoch (93/200):
+Train loss: 1.342395, train acc: 0.980589
+Val loss: 1.466945, Val acc: 0.907212
+best: 0.924
+Epoch (94/200):
+Train loss: 1.338826, train acc: 0.982622
+Val loss: 1.432210, Val acc: 0.925041
+==> Save checkpoint ...
+best: 0.925
+Epoch (95/200):
+Train loss: 1.336757, train acc: 0.983130
+Val loss: 1.435218, Val acc: 0.922609
+best: 0.925
+Epoch (96/200):
+Train loss: 1.342390, train acc: 0.980488
+Val loss: 1.438880, Val acc: 0.917747
+best: 0.925
+Epoch (97/200):
+Train loss: 1.337135, train acc: 0.982724
+Val loss: 1.440965, Val acc: 0.913695
+best: 0.925
+Epoch (98/200):
+Train loss: 1.337477, train acc: 0.981911
+Val loss: 1.453525, Val acc: 0.911264
+best: 0.925
+Epoch (99/200):
+Train loss: 1.339240, train acc: 0.981911
+Val loss: 1.446908, Val acc: 0.918963
+best: 0.925
+Epoch (100/200):
+Train loss: 1.337800, train acc: 0.981301
+Val loss: 1.453653, Val acc: 0.904781
+best: 0.925
+Epoch (101/200):
+Train loss: 1.343002, train acc: 0.979878
+Val loss: 1.433864, Val acc: 0.914911
+best: 0.925
+Epoch (102/200):
+Train loss: 1.336661, train acc: 0.982215
+Val loss: 1.440959, Val acc: 0.917342
+best: 0.925
+Epoch (103/200):
+Train loss: 1.332387, train acc: 0.986077
+Val loss: 1.439668, Val acc: 0.919368
+best: 0.925
+Epoch (104/200):
+Train loss: 1.336452, train acc: 0.982317
+Val loss: 1.443080, Val acc: 0.918152
+best: 0.925
+Epoch (105/200):
+Train loss: 1.333507, train acc: 0.983028
+Val loss: 1.475868, Val acc: 0.894652
+best: 0.925
+Epoch (106/200):
+Train loss: 1.334562, train acc: 0.984654
+Val loss: 1.435504, Val acc: 0.921799
+best: 0.925
+Epoch (107/200):
+Train loss: 1.331189, train acc: 0.983943
+Val loss: 1.455220, Val acc: 0.912480
+best: 0.925
+Epoch (108/200):
+Train loss: 1.331911, train acc: 0.984045
+Val loss: 1.440244, Val acc: 0.920583
+best: 0.925
+Epoch (109/200):
+Train loss: 1.333291, train acc: 0.984350
+Val loss: 1.446703, Val acc: 0.918963
+best: 0.925
+Epoch (110/200):
+Train loss: 1.331540, train acc: 0.983841
+Val loss: 1.441407, Val acc: 0.921799
+best: 0.925
+Epoch (111/200):
+Train loss: 1.331557, train acc: 0.985366
+Val loss: 1.430838, Val acc: 0.918963
+best: 0.925
+Epoch (112/200):
+Train loss: 1.326068, train acc: 0.985061
+Val loss: 1.446763, Val acc: 0.911264
+best: 0.925
+Epoch (113/200):
+Train loss: 1.327740, train acc: 0.987093
+Val loss: 1.441720, Val acc: 0.915721
+best: 0.925
+Epoch (114/200):
+Train loss: 1.329944, train acc: 0.985772
+Val loss: 1.458805, Val acc: 0.907212
+best: 0.925
+Epoch (115/200):
+Train loss: 1.330259, train acc: 0.985366
+Val loss: 1.448982, Val acc: 0.910859
+best: 0.925
+Epoch (116/200):
+Train loss: 1.327294, train acc: 0.986687
+Val loss: 1.445829, Val acc: 0.914100
+best: 0.925
+Epoch (117/200):
+Train loss: 1.323024, train acc: 0.987805
+Val loss: 1.436714, Val acc: 0.919773
+best: 0.925
+Epoch (118/200):
+Train loss: 1.325451, train acc: 0.985569
+Val loss: 1.443288, Val acc: 0.913290
+best: 0.925
+Epoch (119/200):
+Train loss: 1.327433, train acc: 0.986179
+Val loss: 1.438156, Val acc: 0.917342
+best: 0.925
+Epoch (120/200):
+Train loss: 1.327700, train acc: 0.985671
+Val loss: 1.444155, Val acc: 0.915316
+best: 0.925
+Epoch (121/200):
+Train loss: 1.326010, train acc: 0.984654
+Val loss: 1.449965, Val acc: 0.910049
+best: 0.925
+Epoch (122/200):
+Train loss: 1.327574, train acc: 0.985467
+Val loss: 1.442600, Val acc: 0.917747
+best: 0.925
+Epoch (123/200):
+Train loss: 1.325112, train acc: 0.985569
+Val loss: 1.445138, Val acc: 0.919773
+best: 0.925
+Epoch (124/200):
+Train loss: 1.325512, train acc: 0.986382
+Val loss: 1.461102, Val acc: 0.911264
+best: 0.925
+Epoch (125/200):
+Train loss: 1.322839, train acc: 0.986585
+Val loss: 1.446974, Val acc: 0.918558
+best: 0.925
+Epoch (126/200):
+Train loss: 1.319956, train acc: 0.989329
+Val loss: 1.438573, Val acc: 0.919773
+best: 0.925
+Epoch (127/200):
+Train loss: 1.320700, train acc: 0.989228
+Val loss: 1.451111, Val acc: 0.913290
+best: 0.925
+Epoch (128/200):
+Train loss: 1.320666, train acc: 0.988821
+Val loss: 1.441707, Val acc: 0.925851
+==> Save checkpoint ...
+best: 0.926
+Epoch (129/200):
+Train loss: 1.320816, train acc: 0.987907
+Val loss: 1.435464, Val acc: 0.916937
+best: 0.926
+Epoch (130/200):
+Train loss: 1.320505, train acc: 0.988313
+Val loss: 1.446486, Val acc: 0.916126
+best: 0.926
+Epoch (131/200):
+Train loss: 1.320510, train acc: 0.987907
+Val loss: 1.450790, Val acc: 0.914100
+best: 0.926
+Epoch (132/200):
+Train loss: 1.323681, train acc: 0.985264
+Val loss: 1.448336, Val acc: 0.910049
+best: 0.926
+Epoch (133/200):
+Train loss: 1.318831, train acc: 0.988415
+Val loss: 1.463022, Val acc: 0.910454
+best: 0.926
+Epoch (134/200):
+Train loss: 1.321534, train acc: 0.987703
+Val loss: 1.442329, Val acc: 0.915721
+best: 0.926
+Epoch (135/200):
+Train loss: 1.319170, train acc: 0.987703
+Val loss: 1.442928, Val acc: 0.917342
+best: 0.926
+Epoch (136/200):
+Train loss: 1.317161, train acc: 0.990142
+Val loss: 1.435745, Val acc: 0.917747
+best: 0.926
+Epoch (137/200):
+Train loss: 1.321274, train acc: 0.988618
+Val loss: 1.455433, Val acc: 0.909238
+best: 0.926
+Epoch (138/200):
+Train loss: 1.319110, train acc: 0.987907
+Val loss: 1.447056, Val acc: 0.920583
+best: 0.926
+Epoch (139/200):
+Train loss: 1.313921, train acc: 0.990549
+Val loss: 1.458033, Val acc: 0.914100
+best: 0.926
+Epoch (140/200):
+Train loss: 1.314863, train acc: 0.989533
+Val loss: 1.439346, Val acc: 0.923420
+best: 0.926
+Epoch (141/200):
+Train loss: 1.310330, train acc: 0.991972
+Val loss: 1.446727, Val acc: 0.915316
+best: 0.926
+Epoch (142/200):
+Train loss: 1.314359, train acc: 0.990955
+Val loss: 1.451801, Val acc: 0.916126
+best: 0.926
+Epoch (143/200):
+Train loss: 1.313739, train acc: 0.989837
+Val loss: 1.439707, Val acc: 0.918558
+best: 0.926
+Epoch (144/200):
+Train loss: 1.315377, train acc: 0.990041
+Val loss: 1.469491, Val acc: 0.912480
+best: 0.926
+Epoch (145/200):
+Train loss: 1.311804, train acc: 0.990142
+Val loss: 1.441168, Val acc: 0.916532
+best: 0.926
+Epoch (146/200):
+Train loss: 1.314433, train acc: 0.989431
+Val loss: 1.452326, Val acc: 0.909643
+best: 0.926
+Epoch (147/200):
+Train loss: 1.316418, train acc: 0.988516
+Val loss: 1.456466, Val acc: 0.909643
+best: 0.926
+Epoch (148/200):
+Train loss: 1.316596, train acc: 0.988923
+Val loss: 1.432078, Val acc: 0.923825
+best: 0.926
+Epoch (149/200):
+Train loss: 1.316218, train acc: 0.989533
+Val loss: 1.442913, Val acc: 0.925041
+best: 0.926
+Epoch (150/200):
+Train loss: 1.313083, train acc: 0.990854
+Val loss: 1.455632, Val acc: 0.911669
+best: 0.926
+Epoch (151/200):
+Train loss: 1.312457, train acc: 0.989837
+Val loss: 1.442487, Val acc: 0.919368
+best: 0.926
+Epoch (152/200):
+Train loss: 1.312472, train acc: 0.990549
+Val loss: 1.443124, Val acc: 0.915721
+best: 0.926
+Epoch (153/200):
+Train loss: 1.311633, train acc: 0.990549
+Val loss: 1.458071, Val acc: 0.914506
+best: 0.926
+Epoch (154/200):
+Train loss: 1.313087, train acc: 0.990854
+Val loss: 1.450863, Val acc: 0.914100
+best: 0.926
+Epoch (155/200):
+Train loss: 1.310247, train acc: 0.991667
+Val loss: 1.448631, Val acc: 0.921799
+best: 0.926
+Epoch (156/200):
+Train loss: 1.313563, train acc: 0.990549
+Val loss: 1.443721, Val acc: 0.914911
+best: 0.926
+Epoch (157/200):
+Train loss: 1.309874, train acc: 0.991565
+Val loss: 1.448776, Val acc: 0.919368
+best: 0.926
+Epoch (158/200):
+Train loss: 1.309684, train acc: 0.992175
+Val loss: 1.438251, Val acc: 0.920989
+best: 0.926
+Epoch (159/200):
+Train loss: 1.309936, train acc: 0.990854
+Val loss: 1.448838, Val acc: 0.919368
+best: 0.926
+Epoch (160/200):
+Train loss: 1.309993, train acc: 0.991159
+Val loss: 1.448528, Val acc: 0.919368
+best: 0.926
+Epoch (161/200):
+Train loss: 1.312225, train acc: 0.989126
+Val loss: 1.440788, Val acc: 0.922204
+best: 0.926
+Epoch (162/200):
+Train loss: 1.311202, train acc: 0.989228
+Val loss: 1.457959, Val acc: 0.907618
+best: 0.926
+Epoch (163/200):
+Train loss: 1.309281, train acc: 0.990447
+Val loss: 1.443716, Val acc: 0.916126
+best: 0.926
+Epoch (164/200):
+Train loss: 1.309425, train acc: 0.991057
+Val loss: 1.468655, Val acc: 0.910859
+best: 0.926
+Epoch (165/200):
+Train loss: 1.307086, train acc: 0.992378
+Val loss: 1.458943, Val acc: 0.915721
+best: 0.926
+Epoch (166/200):
+Train loss: 1.305960, train acc: 0.993699
+Val loss: 1.436157, Val acc: 0.923825
+best: 0.926
+Epoch (167/200):
+Train loss: 1.310627, train acc: 0.991057
+Val loss: 1.444868, Val acc: 0.914506
+best: 0.926
+Epoch (168/200):
+Train loss: 1.307045, train acc: 0.992886
+Val loss: 1.445425, Val acc: 0.920989
+best: 0.926
+Epoch (169/200):
+Train loss: 1.307731, train acc: 0.991972
+Val loss: 1.459018, Val acc: 0.917342
+best: 0.926
+Epoch (170/200):
+Train loss: 1.307251, train acc: 0.992073
+Val loss: 1.459298, Val acc: 0.915721
+best: 0.926
+Epoch (171/200):
+Train loss: 1.309562, train acc: 0.990752
+Val loss: 1.469246, Val acc: 0.909643
+best: 0.926
+Epoch (172/200):
+Train loss: 1.307991, train acc: 0.991768
+Val loss: 1.445781, Val acc: 0.917747
+best: 0.926
+Epoch (173/200):
+Train loss: 1.305258, train acc: 0.991768
+Val loss: 1.448582, Val acc: 0.915721
+best: 0.926
+Epoch (174/200):
+Train loss: 1.302176, train acc: 0.991870
+Val loss: 1.442626, Val acc: 0.921799
+best: 0.926
+Epoch (175/200):
+Train loss: 1.304980, train acc: 0.992175
+Val loss: 1.452063, Val acc: 0.914911
+best: 0.926
+Epoch (176/200):
+Train loss: 1.305805, train acc: 0.993191
+Val loss: 1.452497, Val acc: 0.912885
+best: 0.926
+Epoch (177/200):
+Train loss: 1.305574, train acc: 0.992886
+Val loss: 1.452223, Val acc: 0.916532
+best: 0.926
+Epoch (178/200):
+Train loss: 1.306248, train acc: 0.992683
+Val loss: 1.449521, Val acc: 0.916937
+best: 0.926
+Epoch (179/200):
+Train loss: 1.303026, train acc: 0.994614
+Val loss: 1.448212, Val acc: 0.916126
+best: 0.926
+Epoch (180/200):
+Train loss: 1.301658, train acc: 0.993293
+Val loss: 1.448604, Val acc: 0.920989
+best: 0.926
+Epoch (181/200):
+Train loss: 1.303157, train acc: 0.993191
+Val loss: 1.445642, Val acc: 0.919773
+best: 0.926
+Epoch (182/200):
+Train loss: 1.304612, train acc: 0.992480
+Val loss: 1.452014, Val acc: 0.912480
+best: 0.926
+Epoch (183/200):
+Train loss: 1.306976, train acc: 0.991667
+Val loss: 1.442318, Val acc: 0.920989
+best: 0.926
+Epoch (184/200):
+Train loss: 1.304295, train acc: 0.992480
+Val loss: 1.442861, Val acc: 0.916126
+best: 0.926
+Epoch (185/200):
+Train loss: 1.303538, train acc: 0.992785
+Val loss: 1.442954, Val acc: 0.917342
+best: 0.926
+Epoch (186/200):
+Train loss: 1.306042, train acc: 0.992581
+Val loss: 1.449300, Val acc: 0.918558
+best: 0.926
+Epoch (187/200):
+Train loss: 1.302630, train acc: 0.992683
+Val loss: 1.447697, Val acc: 0.920583
+best: 0.926
+Epoch (188/200):
+Train loss: 1.303009, train acc: 0.992785
+Val loss: 1.445627, Val acc: 0.918558
+best: 0.926
+Epoch (189/200):
+Train loss: 1.300962, train acc: 0.992886
+Val loss: 1.445851, Val acc: 0.916937
+best: 0.926
+Epoch (190/200):
+Train loss: 1.303265, train acc: 0.992988
+Val loss: 1.436003, Val acc: 0.919773
+best: 0.926
+Epoch (191/200):
+Train loss: 1.302984, train acc: 0.992683
+Val loss: 1.444537, Val acc: 0.920178
+best: 0.926
+Epoch (192/200):
+Train loss: 1.301921, train acc: 0.993089
+Val loss: 1.440220, Val acc: 0.917342
+best: 0.926
+Epoch (193/200):
+Train loss: 1.300152, train acc: 0.994309
+Val loss: 1.443239, Val acc: 0.915721
+best: 0.926
+Epoch (194/200):
+Train loss: 1.303009, train acc: 0.994817
+Val loss: 1.448147, Val acc: 0.917342
+best: 0.926
+Epoch (195/200):
+Train loss: 1.303376, train acc: 0.993394
+Val loss: 1.454942, Val acc: 0.914100
+best: 0.926
+Epoch (196/200):
+Train loss: 1.302912, train acc: 0.992988
+Val loss: 1.442099, Val acc: 0.916126
+best: 0.926
+Epoch (197/200):
+Train loss: 1.299774, train acc: 0.994919
+Val loss: 1.449912, Val acc: 0.914100
+best: 0.926
+Epoch (198/200):
+Train loss: 1.297109, train acc: 0.994919
+Val loss: 1.452362, Val acc: 0.910049
+best: 0.926
+Epoch (199/200):
+Train loss: 1.301617, train acc: 0.993191
+Val loss: 1.452722, Val acc: 0.917747
+best: 0.926
+Epoch (200/200):
+Train loss: 1.300532, train acc: 0.993699
+Val loss: 1.445807, Val acc: 0.916937
+best: 0.926
+==> End of training...
