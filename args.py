@@ -2,7 +2,7 @@
 Date: 2022-05-14 07:23:29
 Author: Liu Yahui
 LastEditors: Liu Yahui
-LastEditTime: 2022-05-14 09:13:49
+LastEditTime: 2022-05-22 06:49:37
 '''
 import argparse
 
@@ -20,7 +20,7 @@ def parse_args():
     parser.add_argument('--use_normal',   type=bool,   default=False,           help='# whether using normal')
     
     # directory
-    parser.add_argument('--ckptroot',     type=str,   default="./save/SSG/",          help='path to checkpoint')
+    parser.add_argument('--ckptroot',     type=str,   default="./save/MSG/",          help='path to checkpoint')
     
     # hyperparameters settings
     parser.add_argument('--lr',           type=float, default=1e-3,        help='learning rate')
