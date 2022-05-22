@@ -2,7 +2,7 @@
 Date: 2022-05-22 06:25:51
 Author: Liu Yahui
 LastEditors: Liu Yahui
-LastEditTime: 2022-05-22 06:57:02
+LastEditTime: 2022-05-22 07:02:59
 '''
 import os
 import torch
@@ -42,14 +42,13 @@ test_loss = 0.0
 test_pred = []
 test_true = []
 
-with torch.no_grad():
-    for data, label in test_loader:
-        data, label = data.cuda(), label.cuda().squeeze()
-        logits = model(data)
-        preds = logits.max(dim=1)[1]
-        test_true.append(label.cpu().numpy())
-        test_pred.append(preds.detach().cpu().numpy())
-    test_true = np.concatenate(test_true)
-    test_pred = np.concatenate(test_pred)
-    test_acc = metrics.accuracy_score(test_true, test_pred)
-    print('Test Acc: %.6f'%(test_acc))
+for data, label in test_loader:
+    data, label = data.cuda(), label.cuda().squeeze()
+    logits = model(data)
+    preds = logits.max(dim=1)[1]
+    test_true.append(label.cpu().numpy())
+    test_pred.append(preds.detach().cpu().numpy())
+test_true = np.concatenate(test_true)
+test_pred = np.concatenate(test_pred)
+test_acc = metrics.accuracy_score(test_true, test_pred)
+print('Test Acc: %.6f'%(test_acc))
